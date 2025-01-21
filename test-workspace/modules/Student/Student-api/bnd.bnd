@@ -1,0 +1,10 @@
+Bundle-Name: Student-api
+Bundle-SymbolicName: com.ignek.student.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.ignek.student.exception,\
+	com.ignek.student.model,\
+	com.ignek.student.service,\
+	com.ignek.student.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../Student-service/service.xml

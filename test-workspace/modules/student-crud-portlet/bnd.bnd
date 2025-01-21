@@ -1,0 +1,7 @@
+Bundle-Name: student-crud-portlet
+Bundle-SymbolicName: com.ignek.student
+Bundle-Version: 1.0.0
+Export-Package: com.ignek.student.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"
