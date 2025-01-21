@@ -1,0 +1,12 @@
+dependencies {
+	api project(":modules:Student:Student-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../Student-api/src/main/java"
+	testDir = "../Student-test/src/testIntegration/java"
+}
+
+group = "com.ignek.student"
